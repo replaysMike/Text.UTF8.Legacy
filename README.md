@@ -1,7 +1,7 @@
 # Text.UTF8.Legacy
 
-[![nuget](https://img.shields.io/nuget/v/AnySerializer.svg)](https://www.nuget.org/packages/Text.UTF8.Legacy/)
-[![nuget](https://img.shields.io/nuget/dt/AnySerializer.svg)](https://www.nuget.org/packages/Text.UTF8.Legacy/)
+[![nuget](https://img.shields.io/nuget/v/Text.UTF8.Legacy.svg)](https://www.nuget.org/packages/Text.UTF8.Legacy/)
+[![nuget](https://img.shields.io/nuget/dt/Text.UTF8.Legacy.svg)](https://www.nuget.org/packages/Text.UTF8.Legacy/)
 [![Build status](https://ci.appveyor.com/api/projects/status/gfwjabg1pta7em94?svg=true)](https://ci.appveyor.com/project/MichaelBrown/Text.UTF8.Legacy)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8001bb10a20c4456a98ed4dde145350a)](https://app.codacy.com/app/replaysMike/Text.UTF8.Legacy?utm_source=github.com&utm_medium=referral&utm_content=replaysMike/Text.UTF8.Legacy&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/85f671af543f46a599cafd10dab36e5a)](https://www.codacy.com/app/replaysMike/Text.UTF8.Legacy?utm_source=github.com&utm_medium=referral&utm_content=replaysMike/Text.UTF8.Legacy&utm_campaign=Badge_Coverage)
