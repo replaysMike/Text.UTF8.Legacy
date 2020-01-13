@@ -4,7 +4,8 @@
     <TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
     <Authors>Michael Brown</Authors>
     <Company>Refactor Software</Company>
-    <Description>Legacy implementation of UTF8 encode/decode for .Net Standard 2.0+</Description>
+    <Description>Text.UTF8.Legacy UTF8 string encode/decode</Description>
+    <Description>Legacy implementation of UTF8 string encode/decode for .Net Standard 2.0+</Description>
     <PackageReleaseNotes>Legacy implementation of UTF8 encode/decode for .Net Standard 2.0+</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/replaysMike/Text.UTF8.Legacy</PackageProjectUrl>
     <RepositoryUrl>https://github.com/replaysMike/Text.UTF8.Legacy</RepositoryUrl>
