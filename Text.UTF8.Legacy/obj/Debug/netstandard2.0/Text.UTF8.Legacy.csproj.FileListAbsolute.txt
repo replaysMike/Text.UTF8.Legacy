@@ -1,0 +1,16 @@
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\bin\Debug\netstandard2.0\Text.UTF8.Legacy.deps.json
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\bin\Debug\netstandard2.0\Text.UTF8.Legacy.dll
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\obj\Debug\netstandard2.0\Text.UTF8.Legacy.csprojAssemblyReference.cache
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\obj\Debug\netstandard2.0\Text.UTF8.Legacy.AssemblyInfoInputs.cache
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\obj\Debug\netstandard2.0\Text.UTF8.Legacy.AssemblyInfo.cs
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\bin\Debug\netstandard2.0\Text.UTF8.Legacy.pdb
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\obj\Debug\netstandard2.0\Text.UTF8.Legacy.dll
+B:\gitrepo\personalcode\MicrosoftLegacy.UTF8\MicrosoftLegacy.UTF8\obj\Debug\netstandard2.0\Text.UTF8.Legacy.pdb
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\bin\Debug\netstandard2.0\Text.UTF8.Legacy.deps.json
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\bin\Debug\netstandard2.0\Text.UTF8.Legacy.dll
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\bin\Debug\netstandard2.0\Text.UTF8.Legacy.pdb
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\obj\Debug\netstandard2.0\Text.UTF8.Legacy.csprojAssemblyReference.cache
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\obj\Debug\netstandard2.0\Text.UTF8.Legacy.AssemblyInfoInputs.cache
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\obj\Debug\netstandard2.0\Text.UTF8.Legacy.AssemblyInfo.cs
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\obj\Debug\netstandard2.0\Text.UTF8.Legacy.dll
+B:\gitrepo\personalcode\Text.UTF8.Legacy\Text.UTF8.Legacy\obj\Debug\netstandard2.0\Text.UTF8.Legacy.pdb

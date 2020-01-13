@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text.UTF8.Legacy", "Text.UTF8.Legacy\Text.UTF8.Legacy.csproj", "{BFAD5A55-1737-4579-88A2-F3EB6B27E307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text.UTF8.Legacy.Tests", "Text.UTF8.Legacy.Tests\Text.UTF8.Legacy.Tests.csproj", "{78E3FEE5-2ACA-4087-BC76-0077FF78F6CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFAD5A55-1737-4579-88A2-F3EB6B27E307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAD5A55-1737-4579-88A2-F3EB6B27E307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAD5A55-1737-4579-88A2-F3EB6B27E307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAD5A55-1737-4579-88A2-F3EB6B27E307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E3FEE5-2ACA-4087-BC76-0077FF78F6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E3FEE5-2ACA-4087-BC76-0077FF78F6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E3FEE5-2ACA-4087-BC76-0077FF78F6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E3FEE5-2ACA-4087-BC76-0077FF78F6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {202F22BC-A38E-49BB-91C6-89152C6E4C34}
+	EndGlobalSection
+EndGlobal
