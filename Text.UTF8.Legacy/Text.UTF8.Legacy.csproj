@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
+    <Authors>Michael Brown</Authors>
+    <Company>Refactor Software</Company>
+    <Description>Legacy implementation of UTF8 encode/decode for .Net Standard 2.0+</Description>
+    <PackageReleaseNotes>Legacy implementation of UTF8 encode/decode for .Net Standard 2.0+</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/replaysMike/Text.UTF8.Legacy</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/replaysMike/Text.UTF8.Legacy</RepositoryUrl>
+    <PackageTags>UTF8 encode decode string legacy fix</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
