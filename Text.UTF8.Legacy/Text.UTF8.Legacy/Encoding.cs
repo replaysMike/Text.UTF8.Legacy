@@ -73,6 +73,7 @@ namespace Text.UTF8.Legacy
         private static readonly UTF8Encoding.UTF8EncodingSealed _defaultEncoding = new UTF8Encoding.UTF8EncodingSealed(encoderShouldEmitUTF8Identifier: false);
 
         // Returns an encoding for the system's current ANSI code page.
+        [Obsolete("Not recommended for use. This can vary depending on the platform and/or framework.")]
         public static Encoding Default => _defaultEncoding;
 
         //
