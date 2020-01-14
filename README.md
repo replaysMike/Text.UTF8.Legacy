@@ -6,11 +6,11 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8001bb10a20c4456a98ed4dde145350a)](https://app.codacy.com/app/replaysMike/Text.UTF8.Legacy?utm_source=github.com&utm_medium=referral&utm_content=replaysMike/Text.UTF8.Legacy&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/85f671af543f46a599cafd10dab36e5a)](https://www.codacy.com/app/replaysMike/Text.UTF8.Legacy?utm_source=github.com&utm_medium=referral&utm_content=replaysMike/Text.UTF8.Legacy&utm_campaign=Badge_Coverage)
 
-A package replacement for .Net Standard's UTF8 string encoding/decoding implementation.
+A package replacement for .Net Core 3.0+ UTF8 string encoding/decoding and windows-1252 codepage implementation to match .Net Framework behavior.
 
 ## Description
 
-As of .Net Core 3.0+ a bug was fixed in Microsoft's UTF8 implementation that changes the behavior of UTF8 string encoding and decoding. This package offers the legacy behavior that is still present in .Net Framework today for maximum compatibility when using .Net Core 3.0+.
+As of .Net Core 3.0+ a bug was fixed in Microsoft's UTF8 implementation that changes the behavior of UTF8 string encoding and decoding. This package offers the legacy behavior that is still present in .Net Framework today for maximum compatibility when using .Net Core 3.0+. Also included is Windows-1252 codepage support which was made an optional package for .Net Core and no longer included.
 
 ## Installation
 Install Text.UTF8.Legacy from the Package Manager Console:
@@ -34,6 +34,13 @@ using Text.UTF8.Legacy;
 
 var string = "A test string";
 var bytes = Text.UTF8.Legacy.Encoding.UTF8.GetBytes(string);
+```
+
+Encoding using Windows-1252 codepage encoding:
+```csharp
+var string = "A test string";
+var codepage1252Encoder = CodePagesEncodingProvider.Instance.GetEncoding(1252);
+var bytes = codepage1252Encoder.GetBytes(string);
 ```
 
 ## Compatibility
