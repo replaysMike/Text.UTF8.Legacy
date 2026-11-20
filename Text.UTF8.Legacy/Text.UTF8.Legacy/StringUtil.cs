@@ -1,19 +1,9 @@
 ﻿using System.Diagnostics;
-using System.Linq;
-using System.Reflection;
 
 namespace Text.UTF8.Legacy
 {
     public class StringUtil
     {
-        internal static string FastAllocateString(int length)
-        {
-            var fastAllocate = typeof(string).GetMethods(BindingFlags.NonPublic | BindingFlags.Static)
-                .First(x => x.Name == "FastAllocateString");
-
-            return (string)fastAllocate.Invoke(null, new object[] { length });
-        }
-
         internal static unsafe string CreateStringFromEncoding(
             byte* bytes, int byteLength, Encoding encoding)
         {
@@ -29,9 +19,8 @@ namespace Text.UTF8.Legacy
             if (stringLength == 0)
                 return string.Empty;
 
-            var s = FastAllocateString(stringLength);
+            var s = new string('\0', stringLength);
             //var stringPtr = Marshal.StringToBSTR(s);
-            
 
             fixed (char* pTempChars = s)
             {
